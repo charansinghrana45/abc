@@ -1,5 +1,8 @@
 hello world
 
+//get users those subscription is going to expire whithin 7days
+http://www.mysqltutorial.org/mysql-interval/
+
 angularjs file post
 https://stackoverflow.com/questions/16483873/angularjs-http-post-file-and-form-data/38640878
 
