@@ -3,6 +3,9 @@ hello world
 //get users those subscription is going to expire whithin 7days
 http://www.mysqltutorial.org/mysql-interval/
 
+SELECT firstname, lastname, reminder_type, schedule_date, now() as currenttime, DATE_SUB(schedule_date, INTERVAL reminder_type*15 minute) as mail_send_time from users WHERE now() BETWEEN DATE_SUB(schedule_date, INTERVAL 15 minute) and schedule_date
+--------------------------------------------------------------------------------------------------------------------------
+
 angularjs file post
 https://stackoverflow.com/questions/16483873/angularjs-http-post-file-and-form-data/38640878
 
