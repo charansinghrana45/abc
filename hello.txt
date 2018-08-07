@@ -1,5 +1,8 @@
 hello world
 
+//bootstrap multiple modules on same page angularjs
+https://www.dotnettricks.com/learn/angularjs/bootstrapping-angular-app-based-on-multiple-modules
+
 //get users those subscription is going to expire whithin 7days
 http://www.mysqltutorial.org/mysql-interval/
 
